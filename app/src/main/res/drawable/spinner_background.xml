@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Outlined box background for the Spinner on the Insights screen -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke android:width="1dp" android:color="#BDBDBD" />
+    <corners android:radius="4dp" />
+    <solid android:color="@color/white" />
+    <padding android:left="12dp" android:right="12dp"
+             android:top="4dp" android:bottom="4dp" />
+</shape>

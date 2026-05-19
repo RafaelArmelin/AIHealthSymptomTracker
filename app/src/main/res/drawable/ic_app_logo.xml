@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    App logo: white medical cross inside an NHS-blue circle.
+    Used in the shared header across all five screens.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+
+    <!-- Blue circle background -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+
+    <!-- White medical cross -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17,10 L23,10 L23,17 L30,17 L30,23 L23,23 L23,30 L17,30 L17,23 L10,23 L10,17 L17,17 Z" />
+
+</vector>

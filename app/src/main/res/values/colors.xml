@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="secondary">#00897B</color>
+    <color name="background">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Severity indicator colours -->
+    <color name="severity_low">#4CAF50</color>      <!-- green:  1–2 -->
+    <color name="severity_medium">#FF9800</color>   <!-- amber:  3   -->
+    <color name="severity_high">#F44336</color>     <!-- red:    4–5 -->
+</resources>

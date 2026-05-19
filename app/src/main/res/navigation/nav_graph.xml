@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.rafaelarmelin.aihealthsymptomtracker.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <!-- Action to navigate to the Log Symptom screen -->
+        <action
+            android:id="@+id/action_homeFragment_to_logSymptomFragment"
+            app:destination="@id/logSymptomFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logSymptomFragment"
+        android:name="com.rafaelarmelin.aihealthsymptomtracker.ui.log.LogSymptomFragment"
+        android:label="Log Symptom"
+        tools:layout="@layout/fragment_log_symptom" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.rafaelarmelin.aihealthsymptomtracker.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/insightsFragment"
+        android:name="com.rafaelarmelin.aihealthsymptomtracker.ui.insights.InsightsFragment"
+        android:label="Insights"
+        tools:layout="@layout/fragment_insights" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.rafaelarmelin.aihealthsymptomtracker.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
