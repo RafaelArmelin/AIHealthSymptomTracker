@@ -110,7 +110,7 @@ The application follows the **MVVM (Model-View-ViewModel)** pattern using Androi
 
 ---
 
-## Notes for Markers
+## Notes
 
 - The app has been tested on a **Pixel 6 API 37** Android emulator.
 - The AI Insights feature requires a live internet connection and a valid Groq API key in `local.properties`.
@@ -118,9 +118,3 @@ The application follows the **MVVM (Model-View-ViewModel)** pattern using Androi
 - All symptom data is stored **locally on the device** and is never transmitted to any server other than the symptom name, severity and notes sent to the Groq API for insight generation.
 
 ---
-
-## Author
-
-Rafael Armelin — Student ID: 22034439  
-CS6051 Mobile Applications — London Metropolitan University  
-Spring Semester 2025/26
